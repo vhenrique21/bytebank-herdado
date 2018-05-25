@@ -3,7 +3,7 @@ public class Cliente implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;
 	private int teste = 15;
-	private int valor = 2;
+	private int valor = 4;
 	
 	public Cliente() {
 		this.autenticador = new AutenticacaoUtil();
