@@ -2,6 +2,7 @@
 public class Cliente implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;
+	private int teste = 15;
 	private int valor = 2;
 	
 	public Cliente() {
@@ -12,6 +13,7 @@ public class Cliente implements Autenticavel {
 	@Override
 	public void setSenha(int senha) {
 		this.autenticador.setSenha(senha);
+
 		
 	}
 
