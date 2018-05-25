@@ -2,6 +2,7 @@
 public class Cliente implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;
+	private int valor = 2;
 	
 	public Cliente() {
 		this.autenticador = new AutenticacaoUtil();
